@@ -553,11 +553,15 @@ body.dark-theme {
 .projects__content{
   display: grid;
   justify-content:center ;
+
 }
 .projects__img{
-  width: 250px;
+  display: flex;
+  width: 260px;
   border-radius: .75rem;
   margin-bottom: 1.25rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects__subtitle{
@@ -571,12 +575,19 @@ body.dark-theme {
   margin: .5rem 0 1.25rem;
 }
 
+.projects__body{
+  text-align: start;
+}
 .projects__button{
  display: inline-flex;
  align-items: center;
  column-gap: .5rem;
  color: var(--text-color);
  font-size: var(--small-font-size);
+ margin-top: .8rem;
+ background-color: var(--container-color);
+ border-radius: 10px;
+ /* padding: .5rem; */
 }
 
 .projects__button i{

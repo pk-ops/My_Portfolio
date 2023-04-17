@@ -70,6 +70,7 @@ const contactForm = document.getElementById('contact-form'),
                 .then(()=>{
                    contactMsg.classList.add('color-blue')
                    contactMsg.textContent='Message sent ✅' 
+                //    alert('Message Sent successfully')
 
                    //Remove message after five seconds
                    setTimeout(()=>{
